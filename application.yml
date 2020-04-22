@@ -8,6 +8,11 @@ spring:
     name: ms-config-dev
 ---
 spring:
+  profiles: test
+  application:
+    name: ms-config-test
+---
+spring:
   profiles: prod
   application:
     name: ms-config-prod
