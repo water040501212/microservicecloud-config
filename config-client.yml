@@ -1,0 +1,18 @@
+spring:
+  profiles: dev
+
+address:
+  city: wuhan
+---
+spring:
+  profiles: test
+
+address:
+  city: shanghai
+---
+spring:
+  profiles: prod
+
+address:
+  city: beijing
+  
