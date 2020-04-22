@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+---0
+spring:
+  profiles: dev
+  application:
+    name: ms-config-dev
+---
+spring:
+  profiles: prod
+  application:
+    name: ms-config-dev
+  
